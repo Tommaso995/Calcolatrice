@@ -9,6 +9,7 @@
 }
 .container-fluid{
     margin-top: 50px;
+    text-align: center;
 }
 
 input {
@@ -23,11 +24,11 @@ input {
     width: 20%;
 }
 #result {
-    width: 89%;
+    width: 93%;
     margin: 5px;
 }
 .uguale{
-    width: 89%;
+    width: 93%;
     margin: 5px;
 }
 
