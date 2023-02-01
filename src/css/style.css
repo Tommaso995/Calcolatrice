@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid, html{
+    background-color: rgb(120, 120, 190);
+}
+.container-fluid{
+    margin-top: 50px;
+}
+
+input {
+
+    padding: 10px;
+    background-color: rgb(203, 203, 255);
+    border: 0;
+}
+
+.numero{
+    margin: 5px;
+    width: 20%;
+}
+#result {
+    width: 89%;
+    margin: 5px;
+}
+.uguale{
+    width: 89%;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 393px) {
+    #result {
+        width: 94%;
+
+    }
+
+    .uguale{
+        width: 94%;
+    }
+
+    .container-fluid{
+        margin-top: 40px;
+    }
+  }
